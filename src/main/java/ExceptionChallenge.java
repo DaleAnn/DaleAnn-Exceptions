@@ -20,6 +20,10 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow(){
+    public void mustThrow() throws ArithmeticException{
+        int num = 20;
+        int num2 = 0;
+        double ans;
+        ans = num/num2;
     }
 }
